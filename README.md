@@ -60,7 +60,7 @@ The following commands should be run in the 'client' folder:
   npx create-react-app emaily  
 (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
 
-Besides the aforementioned packages that come pre-installed when running create-react-app, additional plugins are as follows.  
+Besides the aforementioned packages that come pre-installed when running create-react-app, additional installed plugins are as follows.  
 - react-router-dom for web app client side routing:\
   npm install --save react-router-dom
 - Redux and React-Redux for client side state management:\
@@ -77,4 +77,10 @@ Besides the aforementioned packages that come pre-installed when running create-
   npm install --save react-stripe-checkout
 - [Redux Form](https://redux-form.com/8.3.0/) for simplified handling of form data with redux state management included:\
   npm install redux-form
-  
+ 
+## Available Scripts
+In the project top level 'server' directory, the following script will run the app in development mode by initiating both the client and backend server:\
+  npm run dev
+
+The production build is performed when pushing to Heroku.  To initiate the push and subsequent build run the follwing from the top level 'server' directory (assuming 'main' is your primary git branch): \
+  git push heroku main

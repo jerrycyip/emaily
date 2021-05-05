@@ -49,16 +49,16 @@ The following commands should be run in the top level 'server' folder:
 - concurrently for running both react frontend server and express backend server in dev:\
   npm install --save concurrently
 - ngrok tunnel for testing webhooks on the local dev environment (e.g. at localhost:5000), run following in project's top level 'server' folder:\
-  npx ngrok http 5000
-\  (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.) 
+  npx ngrok http 5000  
+(Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.) 
 - lodash utility library of methods for simplified processing of sendGrid's webhook array data:\
   npm install --save lodash 
   
 ### Client Side
 The following commands should be run in the 'client' folder:
 - Use of [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) Tool Chain to simplify the React client set up.  This toolchain is preconfigured and bundled with standard tools including the Webpack bundler and Babel compiler:\
-  npx create-react-app emaily
-\ (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
+  npx create-react-app emaily 
+  (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
 
 Besides the aforementioned packages that come pre-installed when running create-react-app, additional plugins are as follows.  
 - react-router-dom for web app client side routing:\

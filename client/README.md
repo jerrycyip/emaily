@@ -1,6 +1,6 @@
 # Overview
 
-This client specific readme includes boilerplate details pre-packaged with the 'create-react-app' toolchain that is used for creating Emaily's client front end.  For overall project specifics and details please reference the readme included in the top-level directory of this repository.
+This client specific readme includes boilerplate details pre-packaged with the 'create-react-app' toolchain that is used for creating Emaily's front end client.  For overall project specifics and details please reference the separate readme provided in the top-level directory of this repository.
 
 # Getting Started with Create React App
 

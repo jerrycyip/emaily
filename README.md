@@ -1,5 +1,5 @@
 # Emaily App
-Emaily is a fullstack web app that enables companies to get customer feedback via simple 'yes/no' email surveys whose result counts are recorded and summarized in the app's main dashboard.  Emaily's implementation employs the 'MERN' tech stack which comprises MongoDB, Express Server, React JS (client), and Node JS.  The app is hosted on Heroku.
+Emaily is a fullstack web app that enables companies to get customer feedback via simple 'yes/no' email surveys whose result counts are recorded and summarized in the app's main dashboard.  Emaily users add credits to their account via credit card payments which enables sending of user defined email survey campaigns to their provided list of customer email addresses.  Emaily's implementation employs the 'MERN' tech stack which comprises MongoDB, Express Server, React JS (client), and Node JS.  The app is hosted on Heroku.
 
 To deliver the full scope of user features, Emaily integrates with 3rd party services including Google's OAuth API for authentication, Stripe's payments API for basic payments, and Twilio's SendGrid email API for actual sending of email survey campaigns.  From a design standpoint, we leverage [Materialize CSS](https://materializecss.com/) for styling the app - this saves time and ensures the project's primary focus is practicing core fullstack concepts.  Minor additional styling and customization was added by me for improved aesthetics and usability.
 
@@ -15,7 +15,8 @@ This app is the primary project for Stephen Grider's Udemy course, [Node with Re
 - Integrating the front end React client
 
 ## Result - Demo
-The Emaily web app is publicly hosted [here](https://calm-fjord-85714.herokuapp.com/).
+The Emaily web app is publicly hosted [here](https://calm-fjord-85714.herokuapp.com/).  
+Note, in order to add user credits when navigating the demo web app, you can use the test credit card number "4242 4242 4242 4242" plus any 3-4 digit CVC security code with future expiration date.
 
 ## Tools Required
 Tools required to develop and run this project are as follows: 

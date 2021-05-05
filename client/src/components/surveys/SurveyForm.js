@@ -19,6 +19,7 @@ class SurveyForm extends React.Component{
             <div>
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                 {this.renderFields()}
+                <br />
                 <Link to="/surveys" className="red btn-flat white-text">
                     Cancel
                 </Link>

@@ -10,9 +10,9 @@ class SurveyList extends React.Component{
     renderSurveys(){
         return this.props.surveys.reverse().map(survey=>{
           return(
-           <div className="card darken-1" key={survey._id} >
+           <div className="card blue lighten-5" key={survey._id} >
                <div className="card-content">
-                    <span className="card-title">{survey.title}</span>
+                    <span className="card-title" style={{fontWeight: "500"}}>{survey.title}</span>
                     <p>
                         {survey.body}
                     </p>
@@ -21,8 +21,8 @@ class SurveyList extends React.Component{
                     </p>
                </div>
                <div className="card-action">
-                    <a href=''>Yes: {survey.yes}</a>
-                    <a href=''>No: {survey.no} </a>
+                    <span style={{color: "orange", marginRight:"1em" }}>Yes: {survey.yes}</span>
+                    <span style={{color: "orange"}}>No: {survey.no} </span>
                </div>
            </div> 
           );

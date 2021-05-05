@@ -4,7 +4,7 @@ import SurveyList from './surveys/SurveyList';
 
 const Dashboard = () => {
     return (
-        <div>
+        <div style={{ marginLeft: "2.5em", marginRight: "2.5em", marginTop: "2em" }}>
             <SurveyList />
             <div className="fixed-action-btn">
                 <Link to="/surveys/new" className="btn-floating btn-large red">

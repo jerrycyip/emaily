@@ -22,7 +22,7 @@ class SurveyNew extends React.Component{
 
     render(){
         return (
-            <div>
+            <div style={{ marginLeft: "2.5em", marginRight: "2.5em", marginTop: "2em" }}>
                 {this.renderContent()}
             </div>
         );

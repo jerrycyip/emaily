@@ -1,3 +1,7 @@
+# Overview
+
+This client specific readme includes boilerplate details pre-packaged with the 'create-react-app' toolchain that is used for creating Emaily's client front end.  For overall project specifics and details please reference the readme included in the top-level directory of this repository.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

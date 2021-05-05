@@ -28,35 +28,37 @@ Tools required to develop and run this project are as follows:
 ## Installation & Configuration
 The following tools, loaders and plugins were installed for this project.
 ### Server Side:
-- nodemon for hot reloading in dev:
+The following commands should be run in the top level 'server' folder:
+- nodemon for hot reloading in dev:\
   npm install --save nodemon
-- [Mongoose](https://mongoosejs.com/) for mongodb object modeling (e.g. schema creation) with node.js:
+- [Mongoose](https://mongoosejs.com/) for mongodb object modeling (e.g. schema creation) with node.js:\
   npm install --save mongoose
-- (Passport)(http://www.passportjs.org/) and Passport google oAuth module
+- (Passport)(http://www.passportjs.org/) and Passport google oAuth module:\
   npm install --save passport passport-google-oauth20
-- cookie-session to manage cookies for authentication
+- cookie-session to manage cookies for authentication:\
   npm install --save cookie-session
-- path-parser for parsing URL parameters (from sendGrid):
+- path-parser for parsing URL parameters (from sendGrid):\
   npm install --save path-parser
-- sendGrid for sending of email campaigns and receiving webhook data on customer click-throughs:
+- sendGrid for sending of email campaigns and receiving webhook data on customer click-throughs:\
   npm install --save sendgrid
-- stripe api for handling payments (we only do test payments using dedicated test credit card numbers):
+- stripe api for handling payments (we only do test payments using dedicated test credit card numbers):\
   npm install --save stripe
-- express web app server framework
+- express web app server framework:\
   npm install --save express
-- concurrently for running both react frontend server and express backend server in dev:
+- concurrently for running both react frontend server and express backend server in dev:\
   npm install --save concurrently
-- ngrok tunnel for testing webhooks on the local dev environment (e.g. at localhost:5000), run following in project's top level 'server' folder:
+- ngrok tunnel for testing webhooks on the local dev environment (e.g. at localhost:5000), run following in project's top level 'server' folder:\
   npx ngrok http 5000
   (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.) 
-- lodash utility library of methods for simplified processing of sendGrid's webhook array data:
+- lodash utility library of methods for simplified processing of sendGrid's webhook array data:\
   npm install --save lodash 
   
 ### Client Side
-- Use of [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) Tool Chain to simplify the React client set up.  This toolchain is preconfigured and bundled with standard tools including the Webpack bundler and Babel compiler.  Additional details are provided in the following sections: (run command in 'client' folder)
+The following commands should be run in the 'client' folder:
+- Use of [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) Tool Chain to simplify the React client set up.  This toolchain is preconfigured and bundled with standard tools including the Webpack bundler and Babel compiler.  Additional details are provided in the following sections:\
   npx create-react-app emaily
   (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
-- Redux and React-Redux for client side state management (run command in client folder)
+- Redux and React-Redux for client side state management (run command in client folder):\
   npm install --save redux react-redux
-- Redux-thunk for handling asynchronous callbacks in our redux action creators:
+- Redux-thunk for handling asynchronous callbacks in our redux action creators:\
   npm install --save redux-thunk

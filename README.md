@@ -57,8 +57,8 @@ The following commands should be run in the top level 'server' folder:
 ### Client Side
 The following commands should be run in the 'client' folder:
 - Use of [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) Tool Chain to simplify the React client set up.  This toolchain is preconfigured and bundled with standard tools including the Webpack bundler and Babel compiler:\
-  npx create-react-app emaily 
-  (Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
+  npx create-react-app emaily  
+(Note: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.)
 
 Besides the aforementioned packages that come pre-installed when running create-react-app, additional plugins are as follows.  
 - react-router-dom for web app client side routing:\

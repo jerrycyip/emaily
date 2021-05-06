@@ -12,7 +12,7 @@ This app is the primary project for Stephen Grider's Udemy course, [Node with Re
 - Handling Payments with Stripe API
 - Creating and Sending emails from a backend server
 - Handling Webhook Data
-- Integrating the front end React client
+- Development and integration of front end React clients 
 
 ## Results - Publicly hosted Site
 The Emaily web app is publicly hosted [here](https://calm-fjord-85714.herokuapp.com/).  

@@ -90,8 +90,8 @@ Besides the aforementioned packages that come pre-installed when running create-
   npm install redux-form
  
 ## Available Scripts
-In the project top level 'server' directory, the following script will run the app in development mode by initiating both the client and backend server:\
+In the project top level 'server' directory, the following script will run the app in development mode by initiating both the client and backend server:\  
   npm run dev
 
-The production build is performed when pushing to Heroku.  To initiate the push and subsequent build run the follwing from the top level 'server' directory (assuming 'main' is your primary git branch): \
+The production build is performed when pushing to Heroku.  To initiate the push and subsequent build run the follwing from the top level 'server' directory (assuming 'main' is your primary git branch): \  
   git push heroku main

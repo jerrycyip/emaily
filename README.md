@@ -24,7 +24,7 @@ Demos of core functionality are as follows.
 #### Google OAuth authentication and Stripe credit card payments demo:  
 ![Emaily App demo 1](emaily_demo_1.gif)
 
-#### Creation of new email survey campaign demo:  
+#### New email survey campaign creation demo:  
 ![Emaily App demo 2](emaily_demo_2.gif)
 
 

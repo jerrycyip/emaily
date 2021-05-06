@@ -30,7 +30,7 @@ Demos of core functionality are as follows.
 
 ## Tools Required
 Tools required to develop and run this project are as follows: 
-- code editor (e.g. [Atom](https://atom.io/), [MS Visual Studio](https://code.visualstudio.com/) etc.)
+- code editor (e.g. [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) etc.)
 - web browser (e.g. Chrome/Safari/Firefox - preferably Chrome because of all the built-in dev tools)
 - Node.js
 - 3rd party Node.js packages as listed in the server and client package.json files (further details on tools, loaders and plugins listed in next section)

@@ -45,15 +45,15 @@ The following commands should be run in the top level 'server' folder:
   npm install --save nodemon
 - [Mongoose](https://mongoosejs.com/) for mongodb object modeling (e.g. schema creation) with node.js:\
   npm install --save mongoose
-- (Passport)(http://www.passportjs.org/) and Passport google oAuth module:\
+- (Passport)(http://www.passportjs.org/) and Passport google oAuth module for OAuth authentication:\
   npm install --save passport passport-google-oauth20
 - cookie-session to manage cookies for authentication:\
   npm install --save cookie-session
-- path-parser for parsing URL parameters (from sendGrid):\
-  npm install --save path-parser
 - sendGrid for sending of email campaigns and receiving webhook data on customer click-throughs:\
   npm install --save sendgrid
-- stripe api for handling payments (we only do test payments using dedicated test credit card numbers):\
+- path-parser for parsing URL parameters (from sendGrid webhook survey data):\
+  npm install --save path-parser
+- stripe api for handling payments (app currently configured to use test payments):\
   npm install --save stripe
 - express web app server framework:\
   npm install --save express

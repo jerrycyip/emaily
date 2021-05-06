@@ -21,8 +21,8 @@ class SurveyList extends React.Component{
                     </p>
                </div>
                <div className="card-action">
-                    <span style={{color: "orange", marginRight:"1em" }}>Yes: {survey.yes}</span>
-                    <span style={{color: "orange"}}>No: {survey.no} </span>
+                    <span style={{color: "orange", marginRight:"1em" }}>Yes: {survey.yes.toLocaleString('en-US')}</span>
+                    <span style={{color: "orange"}}>No: {survey.no.toLocaleString('en-US')} </span>
                </div>
            </div> 
           );

@@ -21,10 +21,10 @@ Note, in order to add user credits when navigating the demo web app, you can use
 ## Results - Demo
 Demos of core functionality are as follows.  
 
-Google OAuth authentication and Stripe credit card payments demo:  
+#### Google OAuth authentication and Stripe credit card payments demo:  
 ![Emaily App demo 1](emaily_demo_1.gif)
 
-Creation of new email survey campaign demo:  
+#### Creation of new email survey campaign demo:  
 ![Emaily App demo 2](emaily_demo_2.gif)
 
 

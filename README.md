@@ -14,13 +14,16 @@ This app is the primary project for Stephen Grider's Udemy course, [Node with Re
 - Handling Webhook Data
 - Integrating the front end React client
 
-## Result - Demo
+## Result - Publicly hosted Site
 The Emaily web app is publicly hosted [here](https://calm-fjord-85714.herokuapp.com/).  
 Note, in order to add user credits when navigating the demo web app, you can use the test credit card number "4242 4242 4242 4242" plus any 3-4 digit CVC security code with future expiration date.  
 
-Demos of core functionality are as follows:
+## Result - Demo
+Demos of core functionality are as follows.  
+
 Google OAuth authentication and Stripe credit card payments demo:  
 ![Emaily App demo 1](emaily_demo_1.gif)
+
 Creation of new email survey campaign demo:  
 ![Emaily App demo 2](emaily_demo_2.gif)
 

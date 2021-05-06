@@ -16,7 +16,12 @@ This app is the primary project for Stephen Grider's Udemy course, [Node with Re
 
 ## Result - Demo
 The Emaily web app is publicly hosted [here](https://calm-fjord-85714.herokuapp.com/).  
-Note, in order to add user credits when navigating the demo web app, you can use the test credit card number "4242 4242 4242 4242" plus any 3-4 digit CVC security code with future expiration date.
+Note, in order to add user credits when navigating the demo web app, you can use the test credit card number "4242 4242 4242 4242" plus any 3-4 digit CVC security code with future expiration date.  
+
+Demos of core functionality are as follows:
+![Emaily App demo 1](emaily_demo_1.gif)
+![Emaily App demo 2](emaily_demo_2.gif)
+
 
 ## Tools Required
 Tools required to develop and run this project are as follows: 

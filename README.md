@@ -1,12 +1,12 @@
 # Emaily App
 ## Results - Demo
-Demos of core functionality are as follows.  
-
 #### Google OAuth authentication and Stripe credit card payments demo:  
 ![Emaily App demo 1](emaily_demo_1.gif)
 
 #### New email survey campaign creation demo:  
 ![Emaily App demo 2](emaily_demo_2.gif)
+
+The app's core functionality is demonstrated above.  
 
 ## Project Overview
 Emaily is a fullstack web app that enables companies to get customer feedback via simple 'yes/no' email surveys whose result counts are recorded and summarized in the app's main dashboard.  Emaily users add credits to their account via credit card payments which can be spent on custom email surveys to their customers.  Emaily's implementation employs the 'MERN' tech stack which comprises MongoDB, Express Server, React JS (client), and Node JS.  The app is hosted on Heroku.

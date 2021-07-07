@@ -57,7 +57,7 @@ The following commands should be run in the top level 'server' folder:
   npm install --save stripe
 - express web app server framework:\
   npm install --save express
-- concurrently for running both react frontend server and express backend server in dev:\
+- concurrently for running both react frontend server and express backend server in dev with a single command:\
   npm install --save concurrently
 - ngrok tunnel for testing webhooks on the local dev environment (e.g. at localhost:5000), run following in project's top level 'server' folder:\
   npx ngrok http 5000  

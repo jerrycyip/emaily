@@ -25,7 +25,7 @@ This app is the primary project for Stephen Grider's Udemy course, [Node with Re
 - Development and integration of front end React clients 
 
 ## Results - Publicly hosted Site
-The Emaily web app was also publicly hosted on Heroku's cloud platform (retired as Oct 2021).  
+Per the demo above, Emaily was publicly hosted on Heroku's cloud platform (retired Sep 2021).
 Note, in order to add user credits when navigating the demo web app, you can use the test credit card number "4242 4242 4242 4242" plus any 3-4 digit CVC security code with future expiration date.
 
 ## Tools Required

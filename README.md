@@ -13,7 +13,7 @@ Emaily is a Proof of Concept (POC) fullstack web app that enables companies to g
 
 To deliver the full scope of user features, Emaily integrates with 3rd party services including Google's OAuth API for authentication, Stripe's payments API for basic payments, and Twilio's SendGrid email API for actual sending of email survey campaigns.  From a design standpoint, we leverage [Materialize CSS](https://materializecss.com/) for styling the app - this saves time and ensures the project's primary focus is practicing core fullstack concepts.  Minor additional styling and customization was added by me for improved aesthetics and usability.
 
-This app is modeled after a project for Stephen Grider's Udemy course, [Node with React: Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development/).  The project provides hands on practice with MERN fullstack core concepts and technologies including the following:
+This app is the primary project for Stephen Grider's Udemy course, [Node with React: Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development/).  The project provides hands on practice with MERN fullstack core concepts and technologies including the following:
 
 - Server Side Architecture with Express and Heroku deployment
 - Implementing Google OAuth authentication
